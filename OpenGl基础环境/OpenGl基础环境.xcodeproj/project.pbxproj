@@ -13,6 +13,12 @@
 		8C3F8747204A95FF001440A9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F8746204A95FF001440A9 /* GLUT.framework */; };
 		8C3F8759204A9636001440A9 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F8758204A9636001440A9 /* libGLTools.a */; };
 		8C3F875B204A9659001440A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F875A204A9659001440A9 /* main.cpp */; };
+		8CF6970C204A991F00950D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF6970B204A991F00950D2B /* Assets.xcassets */; };
+		8CF6970F204A991F00950D2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF6970D204A991F00950D2B /* Main.storyboard */; };
+		8CF69717204A993900950D2B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F8744204A95F9001440A9 /* OpenGL.framework */; };
+		8CF69718204A994000950D2B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F8746204A95FF001440A9 /* GLUT.framework */; };
+		8CF69719204A994B00950D2B /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F8758204A9636001440A9 /* libGLTools.a */; };
+		8CF6971B204A998A00950D2B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6971A204A998A00950D2B /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +45,12 @@
 		8C3F8757204A962B001440A9 /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
 		8C3F8758204A9636001440A9 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLTools.a; path = "OpenGl基础环境/libGLTools.a"; sourceTree = "<group>"; };
 		8C3F875A204A9659001440A9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF69703204A991F00950D2B /* 001-绘制三角形并移动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001-绘制三角形并移动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF6970B204A991F00950D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CF6970E204A991F00950D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CF69710204A991F00950D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF69713204A991F00950D2B /* _01_________.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "_01_________.entitlements"; sourceTree = "<group>"; };
+		8CF6971A204A998A00950D2B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF69700204A991F00950D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF69719204A994B00950D2B /* libGLTools.a in Frameworks */,
+				8CF69718204A994000950D2B /* GLUT.framework in Frameworks */,
+				8CF69717204A993900950D2B /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				8C3F872E204A95DC001440A9 /* OpenGl基础环境 */,
+				8CF69704204A991F00950D2B /* 001-绘制三角形并移动 */,
 				8C3F872D204A95DC001440A9 /* Products */,
 				8C3F8743204A95F9001440A9 /* Frameworks */,
 			);
@@ -68,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				8C3F872C204A95DC001440A9 /* OpenGl基础环境.app */,
+				8CF69703204A991F00950D2B /* 001-绘制三角形并移动.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +148,18 @@
 			path = GL;
 			sourceTree = "<group>";
 		};
+		8CF69704204A991F00950D2B /* 001-绘制三角形并移动 */ = {
+			isa = PBXGroup;
+			children = (
+				8CF6970B204A991F00950D2B /* Assets.xcassets */,
+				8CF6970D204A991F00950D2B /* Main.storyboard */,
+				8CF69710204A991F00950D2B /* Info.plist */,
+				8CF6971A204A998A00950D2B /* main.cpp */,
+				8CF69713204A991F00950D2B /* _01_________.entitlements */,
+			);
+			path = "001-绘制三角形并移动";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +180,23 @@
 			productReference = 8C3F872C204A95DC001440A9 /* OpenGl基础环境.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8CF69702204A991F00950D2B /* 001-绘制三角形并移动 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF69714204A991F00950D2B /* Build configuration list for PBXNativeTarget "001-绘制三角形并移动" */;
+			buildPhases = (
+				8CF696FF204A991F00950D2B /* Sources */,
+				8CF69700204A991F00950D2B /* Frameworks */,
+				8CF69701204A991F00950D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "001-绘制三角形并移动";
+			productName = "001-绘制三角形并移动";
+			productReference = 8CF69703204A991F00950D2B /* 001-绘制三角形并移动.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,6 +207,10 @@
 				ORGANIZATIONNAME = "马遥";
 				TargetAttributes = {
 					8C3F872B204A95DC001440A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8CF69702204A991F00950D2B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -173,6 +230,7 @@
 			projectRoot = "";
 			targets = (
 				8C3F872B204A95DC001440A9 /* OpenGl基础环境 */,
+				8CF69702204A991F00950D2B /* 001-绘制三角形并移动 */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +245,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF69701204A991F00950D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF6970C204A991F00950D2B /* Assets.xcassets in Resources */,
+				8CF6970F204A991F00950D2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -198,6 +265,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF696FF204A991F00950D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF6971B204A998A00950D2B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -205,6 +280,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				8C3F8738204A95DC001440A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CF6970D204A991F00950D2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF6970E204A991F00950D2B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -355,6 +438,46 @@
 			};
 			name = Release;
 		};
+		8CF69715204A991F00950D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "001-绘制三角形并移动/_01_________.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F692N24C9P;
+				HEADER_SEARCH_PATHS = "/Users/mayao/Documents/学习测试专用/OpenGl项目练习/OpenGl基础环境/OpenGl基础环境/include";
+				INFOPLIST_FILE = "001-绘制三角形并移动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGl基础环境",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mervin1024.practice.-01---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF69716204A991F00950D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "001-绘制三角形并移动/_01_________.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F692N24C9P;
+				HEADER_SEARCH_PATHS = "/Users/mayao/Documents/学习测试专用/OpenGl项目练习/OpenGl基础环境/OpenGl基础环境/include";
+				INFOPLIST_FILE = "001-绘制三角形并移动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGl基础环境",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mervin1024.practice.-01---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -372,6 +495,15 @@
 			buildConfigurations = (
 				8C3F8741204A95DC001440A9 /* Debug */,
 				8C3F8742204A95DC001440A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF69714204A991F00950D2B /* Build configuration list for PBXNativeTarget "001-绘制三角形并移动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF69715204A991F00950D2B /* Debug */,
+				8CF69716204A991F00950D2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
